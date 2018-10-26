@@ -4,12 +4,15 @@
 int main() {
     int licznik_petli = 0;
 
-        for (int x = 0; x<=2000; ++x) {
-            if(x%2 && x%3 && x%5 && x%7)
-            printf("%d\n ", x);
-
-
+        for (int x =1000; x>=0; --x) {
             licznik_petli++;
+            if(x%2 && x%3 && x%5 && x%7){
+
+                printf("%d\n ", x);
+
+
+            
+            break;}
         }
 
 
